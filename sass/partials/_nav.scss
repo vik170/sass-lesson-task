@@ -1,0 +1,17 @@
+nav {
+    background: getColor(white);
+    
+    .container {
+        @extend .nav-flex;
+    }
+
+    a {
+        text-decoration: none;
+        color: getColor(text-black);
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+    }
+}

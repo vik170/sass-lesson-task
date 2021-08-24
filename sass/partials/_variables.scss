@@ -8,3 +8,11 @@ $colors: (
     turquoise: #059F81,
 );
 
+$fonts: (
+    primary: "open sans",
+    headings: "montserrat",
+);
+
+@function getColors($color) {
+    @return map-get($colors, $color);
+};

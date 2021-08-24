@@ -1,0 +1,8 @@
+a,
+p {
+    font-family: map-get($fonts, primary);
+}
+
+h1 {
+    font-family: map-get($fonts, headings);
+}
