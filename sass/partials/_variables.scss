@@ -1,0 +1,13 @@
+$colors: (
+    black: #2C2C2C,
+    grey: #F2F2F2,
+    orange: #E28413,
+    text-black: #000022,
+    green: #036754,
+    white: #FFFFFF,
+    turquoise: #059F81,
+);
+
+body {
+    background: map-get($colors: , orange );
+};
